@@ -10,11 +10,13 @@
         <?php
             $con=mysqli_connect('localhost','root','','wt_project');
             if(isset($_POST['login'])){
-                $name=$_POST['emailORusername'];
-                $pass=$_POST['loginPass'];
-                $query="INSERT INTO login (emailORusername,loginPass) VALUES('$name','$pass')";
+                $emailORusername = $_POST['emailORusername'];
+                $password        = $_POST['loginPass'];
+
+                $query="INSERT INTO login (emailORusername,loginPass) VALUES('$emailORusername','$password')";
                 $run=mysqli_query($con,$query);
             }
         ?>
+        Login Successful. <a href="index.php">HOME</a>
 </body>
 </html>

@@ -206,7 +206,7 @@ family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,
                     <input type="password" name="loginPass" placeholder="">
                 </div>
                 <div class="button">
-                    <a href="index.php" class="login" class="cstm-btn">LOGIN</a>
+                <input type="submit"class="custom-btn" name="login" value="LOG IN">
                 </div>
                 <div class="other-login">
                     <p>or login with</p>
