@@ -131,7 +131,6 @@ family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,
     <div class="popup-signup">
         <div class="wrapper">
             <form action="signupDetail.php" method="POST">
-                hello
                 <div class="head">
                     <a href="#" class="cross"><img src="./Images/crossmark.png" alt=""></a>
                     <h1>Sign Up</h1>
